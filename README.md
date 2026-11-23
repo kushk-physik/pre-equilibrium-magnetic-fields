@@ -1,6 +1,6 @@
 # Magnetic Field Effects in Pre-Equilibrium Dynamics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22804755.svg)](https://doi.org/10.5281/zenodo.22804755)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24477818.svg)](https://doi.org/10.5281/zenodo.24477818)
 
 Code, data, and plots for analyzing magnetic field effects during the pre-equilibrium stage of relativistic heavy-ion collisions (RHIC and LHC energies).
 
@@ -39,7 +39,7 @@ Code, data, and plots for analyzing magnetic field effects during the pre-equili
 
 If you use this code or data, please cite the software archive on Zenodo:
 
-> K. Kushwah, *Magnetic field effects in pre-equilibrium dynamics* (software), Zenodo, [doi:10.5281/zenodo.22804755](https://doi.org/10.5281/zenodo.22804755).
+> K. Kushwah, *Magnetic field effects in pre-equilibrium dynamics* (software), Zenodo, [doi:10.5281/zenodo.24477818](https://doi.org/10.5281/zenodo.24477818).
 
 This DOI always resolves to the most recent version. Citation details for the associated paper will be added upon publication.
 
