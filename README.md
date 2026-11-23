@@ -27,6 +27,10 @@ Code, data, and plots for analyzing magnetic field effects during the pre-equili
 - Python 3
 - `numpy`, `scipy`, `matplotlib`
 
+## Changes
+
+- **23 November 2026.** The initial distribution in `LHC_PLPT_plots/LHC_PLPT_lambda.py` is now normalized to the initial energy density, $\varepsilon_0 = (dE_T/dy)/(\tau_0 A_T)$, in place of the earlier saturation-based normalization. The same prefactor is used for $\lambda = 10$ and $\lambda = 0.1$. Because the rescaling is common to $P_L$ and $P_T$, the ratio $P_L/P_T$ is unaffected.
+
 ## Citation
 
 If you use this code or data, please cite the associated paper (citation details to be added upon publication).
