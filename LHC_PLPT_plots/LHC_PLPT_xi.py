@@ -1,3 +1,6 @@
+# Revised 23 November 2026: the initial distribution is normalized to the
+# initial energy density, eps0 = (dE_T/dy)/(tau0 A_T), separately for each xi.
+
 import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
