@@ -31,6 +31,7 @@ Code, data, and plots for analyzing magnetic field effects during the pre-equili
 
 - **23 November 2026.** The initial distribution in `LHC_PLPT_plots/LHC_PLPT_lambda.py` is now normalized to the initial energy density, $\varepsilon_0 = (dE_T/dy)/(\tau_0 A_T)$, in place of the earlier saturation-based normalization. The same prefactor is used for $\lambda = 10$ and $\lambda = 0.1$. Because the rescaling is common to $P_L$ and $P_T$, the ratio $P_L/P_T$ is unaffected.
 - **23 November 2026.** The same normalization is now used in `LHC_PLPT_plots/LHC_PLPT_xi.py`. The prefactor is fixed separately for each value of $\xi$, since the energy integral of the initial distribution depends on $\xi$. For $\xi = 10$, $4$ and $1$ the initial energy density is $478.261~\mathrm{GeV/fm^3}$ in all three cases. As before, $P_L/P_T$ is unaffected by this rescaling.
+- **23 November 2026.** The RHIC scripts, `RHIC_PLPT_plots/RHIC_PLPT_lambda.py` and `RHIC_PLPT_plots/RHIC_PLPT_xi.py`, now use the same normalization. Since $dE_T/dy$ and $A_T$ differ between centrality classes, the prefactor is computed separately for each centrality, and in the $\xi$ script also for each value of $\xi$. The resulting initial energy densities are $477.500$, $342.667$ and $157.143~\mathrm{GeV/fm^3}$ for the 0-20%, 20-40% and 60-80% classes, respectively. Within a given centrality the prefactor is common to $P_L$ and $P_T$, so the plotted ratios are unaffected.
 
 ## Citation
 
